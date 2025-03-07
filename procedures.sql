@@ -1,5 +1,5 @@
 -- Criando índices para otimizar consultas
-
+USE ecommerce;
 -- Índice para busca rápida de clientes pelo CPF
 CREATE UNIQUE INDEX idx_clients_cpf ON clients(CPF);
 
